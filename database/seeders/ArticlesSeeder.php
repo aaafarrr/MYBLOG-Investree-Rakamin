@@ -15,7 +15,7 @@ class ArticlesSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('users')->insert([
+        DB::table('articles')->insert([
             'title' => 'Laravel 9.0',
             'content' => 'As you may know, Laravel transitioned to yearly releases with the release of Laravel 8. Previously, major versions were released every 6 months. This transition is intended to ease the maintenance burden on the community and challenge our development team to ship amazing, powerful new features without introducing breaking changes. Therefore, we have shipped a variety of robust features to Laravel 8 without breaking backwards compatibility, such as parallel testing support, improved Breeze starter kits, HTTP client improvements, and even new Eloquent relationship types such as "has one of many".
 
