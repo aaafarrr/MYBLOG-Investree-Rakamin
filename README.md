@@ -8,54 +8,57 @@ Blog application development project using laravel.
 
 Clone the project
 ```bash
-  git clone https://github.com/aaafarrr/MYBLOG-Investree-Rakamin.git
+git clone https://github.com/aaafarrr/MYBLOG-Investree-Rakamin.git
 ```
 
 Go to the project directory
 ```bash
-  cd MYBLOG-Investree-Rakamin
+cd MYBLOG-Investree-Rakamin
 ```
 
 Install Dependencies
 ```bash
-  composer install
-  composer update
+composer install
+composer update
 ```
 
 Configure .env
 ```bash
-  cp .env.example .env
+cp .env.example .env
 ```
 
 Migration with seeders and Passport installation
 ```bash
-  php artisan migrate --seed
-  php artisan passport:install
+php artisan migrate --seed
+php artisan passport:install
+php artisan key:generate
 ```
-
-
-
-
 
 ## Usage
 
 ```bash
-  php artisan serve
+php artisan serve
 ```
 
+## Demo
+
+```bash
+Email: admin@example.com
+Password: password
+```
 
 ## API Reference
 
 #### API Prefix
 
 ```bash
-  /api/v1/
+/api/v1/
 ```
 
 #### Login
 
 ```bash
-  POST /api/v1/auth/login
+POST /api/v1/auth/login
 ```
 
 | Parameter | Type     | Description                       |
