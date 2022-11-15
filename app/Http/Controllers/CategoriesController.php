@@ -39,7 +39,7 @@ class CategoriesController extends Controller
     {
         //validate
         $this->validate($request, [
-            'name' => 'required|min:4'
+            'name' => 'required'
         ]);
 
         // user_id is the foreign key in the categories table
@@ -94,7 +94,7 @@ class CategoriesController extends Controller
         // update
         //validate
         $this->validate($request, [
-            'name' => 'required|min:4'
+            'name' => 'required'
         ]);
 
         $category = Categories::find($id);

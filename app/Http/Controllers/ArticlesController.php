@@ -53,8 +53,8 @@ class ArticlesController extends Controller
         try{
             //validate
             $this->validate($request, [
-                'title' => 'required|min:4',
-                'content' => 'required|min:4',
+                'title' => 'required',
+                'content' => 'required',
                 // image
                 'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
                 'categories_id' => 'required'
@@ -124,8 +124,8 @@ class ArticlesController extends Controller
         try{
             //validate
             $this->validate($request, [
-                'title' => 'required|min:4',
-                'content' => 'required|min:4',
+                'title' => 'required',
+                'content' => 'required',
                 'categories_id' => 'required'
             ]);
 
