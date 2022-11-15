@@ -48,13 +48,13 @@ Migration with seeders and Passport installation
 
 #### API Prefix
 
-```http
+```bash
   /api/v1/
 ```
 
 #### Login
 
-```http
+```bash
   POST /api/v1/auth/login
 ```
 
@@ -63,10 +63,19 @@ Migration with seeders and Passport installation
 | `email`      | `string` | **Required**. Email Address.|
 | `password`      | `string` | **Required**. Password Account.|
 
-#### Another example of using API in a test case file
+#### Another example of using API in a [Postman Collection](https://raw.githubusercontent.com/aaafarrr/MYBLOG-Investree-Rakamin/main/testcase/MY%20BLOG.postman_collection.json)
 
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![BLOG HOME](https://github.com/aaafarrr/MYBLOG-Investree-Rakamin/blob/main/testcase/blog-home.png?raw=true)
+![LOGIN](https://github.com/aaafarrr/MYBLOG-Investree-Rakamin/blob/main/testcase/login.png?raw=true)
+![ADMIN HOME](https://github.com/aaafarrr/MYBLOG-Investree-Rakamin/blob/main/testcase/admin-home.png?raw=true)
+![ADMIN ARTCLE](https://github.com/aaafarrr/MYBLOG-Investree-Rakamin/blob/main/testcase/admin-article.png?raw=true)
+![ADMIN CATEGORY](https://github.com/aaafarrr/MYBLOG-Investree-Rakamin/blob/main/testcase/admin-category.png?raw=true)
+
+
+## Documentation
+
+[Postman Collection](https://raw.githubusercontent.com/aaafarrr/MYBLOG-Investree-Rakamin/main/testcase/MY%20BLOG.postman_collection.json)
 
